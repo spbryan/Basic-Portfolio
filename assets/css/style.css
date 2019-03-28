@@ -26,13 +26,12 @@ a {
 }
 
 input {
-    /* width: 920px; */
-    width: 895px;
+    width: 893px;
     padding: 12px;
 }
 
 textarea {
-    width: 895px;
+    width: 893px;
     padding: 12px;
     border-radius: 4px;
     resize: vertical;
@@ -92,6 +91,28 @@ label {
     cursor: pointer;
     width:15%;
     margin-bottom: 15px;
+}
+
+.portfolio-image {
+    float: left;
+    height: 150px;
+    width: 180px;
+    /* margin-left: 20px;
+    margin-top:20px; */
+    margin: 20px 20px 0 20px;
+}
+
+.image-container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.image-banner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 /* ID Selectors */
