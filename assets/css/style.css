@@ -69,12 +69,13 @@ label {
     border-color: #4aaaa5;
     border-style: solid;
     border-width: 0 0 6px 0;
+    font-size: 1.5em;
 }
 
-.content-area p {
-    margin-left: 20px;
-    margin-right: 20px;
-}
+/* .content-area p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+} */
 
 .content-area input {
     margin-left: 20px;
@@ -94,25 +95,32 @@ label {
 }
 
 .portfolio-image {
-    float: left;
     height: 150px;
     width: 180px;
-    /* margin-left: 20px;
-    margin-top:20px; */
     margin: 20px 20px 0 20px;
 }
 
 .image-container {
+    float: left;
     position: relative;
     text-align: center;
     color: white;
 }
 
+.image-container p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+}
+
 .image-banner {
     position: absolute;
-    top: 50%;
+    top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
+    color: white;
+    background-color: #4aaaa5;
+    width: 180px;
+    padding:3px 0;
 }
 
 /* ID Selectors */
