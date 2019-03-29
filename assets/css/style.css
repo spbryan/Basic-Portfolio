@@ -4,6 +4,10 @@
 *  Date: 2019-03-23
 ***************************************************************/
 
+::placeholder {
+    color: lightgray;
+}
+
 /* Element Selectors */
 body {
     padding: 0;
@@ -23,6 +27,11 @@ p {
 
 a {
     color: #777777;
+}
+
+a:hover {
+    background-color: #4aaaa5;
+    color: #ffffff;
 }
 
 input {
@@ -72,10 +81,10 @@ label {
     font-size: 1.5em;
 }
 
-/* .content-area p {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 17px;
-} */
+.content-area p {
+    margin-right: 20px;
+    margin-left: 20px;
+} 
 
 .content-area input {
     margin-left: 20px;
@@ -94,6 +103,11 @@ label {
     margin-bottom: 15px;
 }
 
+.button:hover {
+    background-color:#666666;
+    color: #4aaaa5;
+}
+
 .portfolio-image {
     height: 150px;
     width: 180px;
@@ -110,11 +124,12 @@ label {
 .image-container p {
     font-family: 'Times New Roman', Times, serif;
     font-size: 17px;
+    margin-left: 0;
 }
 
 .image-banner {
     position: absolute;
-    top: 70%;
+    top: 72%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
